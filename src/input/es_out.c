@@ -3540,7 +3540,7 @@ static void EsOutUpdateInfo( es_out_t *out, es_out_id_t *es, const vlc_meta_t *p
                [TRANSFER_FUNC_BT709] = "ITU-R BT.709",
                [TRANSFER_FUNC_SMPTE_ST2084] = "SMPTE ST2084 (PQ)",
                [TRANSFER_FUNC_SMPTE_240] = "SMPTE 240M",
-               [TRANSFER_FUNC_HLG] = N_("Hybrid Log-Gamma"),
+               [TRANSFER_FUNC_HLG] = N_("Hybrid Log-Gamma / BT.2020"),
            };
            static_assert(ARRAY_SIZE(func_names) == TRANSFER_FUNC_MAX+1,
                          "Transfer functions table mismatch");
